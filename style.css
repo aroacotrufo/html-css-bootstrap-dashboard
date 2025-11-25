@@ -3,4 +3,10 @@
 }
 .table-center{
     margin:50px 150px;
+    font-size: 10px;
+}
+.btn-success{
+    --bs-btn-padding-y: .15rem;
+    --bs-btn-padding-x: .5rem;
+    --bs-btn-font-size: .75rem;
 }
