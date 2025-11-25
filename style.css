@@ -2,11 +2,20 @@
     height: 50px;
 }
 .table-center{
-    margin:50px 150px;
+    margin:20px 150px;
     font-size: 10px;
 }
-.btn-success{
-    --bs-btn-padding-y: .15rem;
+.btn-success, .btn-primary{
+    --bs-btn-padding-y: .25rem;
     --bs-btn-padding-x: .5rem;
     --bs-btn-font-size: .75rem;
+}
+.header-main{
+    margin:20px 150px;
+    display:flex;
+    justify-content:space-between;
+}
+.card-right-top{
+    width: 18rem;
+    margin:10px 30px;
 }
