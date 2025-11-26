@@ -59,7 +59,7 @@
                     <div class="mb-3">
                         <div class="row">
                             <div class="col">
-                                <label for="searchName" class="form-label">Nome Autore</label>
+                                <label for="inputname" class="form-label">Nome Autore</label>
                                 <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore"
                                     aria-label="Inserisci il nome dell'autore" aria-describedby="basic-addon2">
 
@@ -79,8 +79,8 @@
                         <div class="row">
                             <div class="col">
                                 <div class="input-group mb-3">
-                                    <label for="inputGenere" class="form-label">Genere</label>
-                                    <select id="inputGenere" class="form-select">
+                                    <label for="inputGender" class="form-label">Genere</label>
+                                    <select class="form-select" required>
                                         <option selected>Scegli il genere</option>
                                         <option>Donna</option>
                                         <option>Uomo</option>
@@ -90,19 +90,20 @@
                             </div>
                             <div class="col">
                                 <label for="inputdate" class="form-label">Anno di pubblicazione</label>
-                                <input type="date">
+                                <input type="date" class="form-control">
                             </div>
                             <div class="col">
                                 <label for="inputISBN" class="form-label">ISBN#</label>
                                 <input type="text" class="form-control" placeholder="Inserisci il codice isbn">
                             </div>
                         </div>
-                                <div class="mb-3 form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Disponibile anche in
-                                        digitale</label>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Disponibile anche in
+                                digitale</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
+                    </div>
                 </form>
             </section>
 
