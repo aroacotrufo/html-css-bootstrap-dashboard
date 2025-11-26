@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-dark">
@@ -46,7 +48,47 @@
             </div>
         </nav>
     </header>
+    <main>
+        <div class="header-main">
+            <h3 class="title"> Nuovo Libro</h3>
 
-    
+        </div>
+        <div class="center-main">
+            <section>
+                <form>
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="col">
+                                <label for="exampleInputEmail1" class="form-label">Nome Autore</label>
+                                <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore"
+                                    aria-label="Inserisci il nome dell'autore" aria-describedby="basic-addon2">
+
+                            </div>
+                            <div class="col">
+                                <label for="exampleInputEmail1" class="form-label">Cognome Autore</label>
+                                <input type="text" class="form-control" placeholder="Inserisci il cognome dell'autore"
+                                    aria-label="Inserisci il cognome dell'autore" aria-describedby="basic-addon2">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Titolo</label>
+                            <input type="text" class="form-control" placeholder="Inserisci il titolo del lbro"
+                                aria-label="Inserisci il titolo del libro" aria-describedby="basic-addon2">
+                            <div id="emailHelp" class="form-text">Titolo versione italiana</div>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Disponibile anche in digitale</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
+                </form>
+            </section>
+
+        </div>
+
+    </main>
+
+
 </body>
+
 </html>
