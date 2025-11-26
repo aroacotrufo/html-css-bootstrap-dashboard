@@ -2,23 +2,23 @@
     height: 50px;
 }
 .table-center{
-    margin:20px 150px;
+    margin:20px 150px 20px 150px;
     font-size: 10px;
 }
-.btn-success, .btn-primary{
-    --bs-btn-padding-y: .25rem;
+.btn-success, .btn-warning, .btn-danger{
+    --bs-btn-padding-y: .10rem;
     --bs-btn-padding-x: .5rem;
     --bs-btn-font-size: .75rem;
+}
+.btn-primary{
+    --bs-btn-padding:.15rem;
 }
 .header-main{
     margin:20px 150px;
     display:flex;
     justify-content:space-between;
 }
-.card-right-top{
-    width: 18rem;
-    margin:10px 30px;
-}
+
 .center-main{
      margin:20px 150px;
    
