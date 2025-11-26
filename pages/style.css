@@ -13,7 +13,7 @@
 .header-main{
     margin:20px 150px;
     display:flex;
-    justify-content:space-between;
+    justify-content:flex-start;
 }
 .card-right-top{
     width: 18rem;
